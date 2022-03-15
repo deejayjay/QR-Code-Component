@@ -1,9 +1,19 @@
 // This document contains the styles that are global to all pages
 @use "./colors" as *;
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
 html,
 body {
-  font-size: 15px;
+  font-size: 10px;
 }
 
 body {
