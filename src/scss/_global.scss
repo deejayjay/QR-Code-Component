@@ -1,0 +1,16 @@
+// This document contains the styles that are global to all pages
+@use "./colors" as *;
+
+html,
+body {
+  font-size: 15px;
+}
+
+body {
+  background-color: $light-grey;
+  font-family: "Outfit", sans-serif;
+  min-width: 375px;
+}
+
+// Title - fontSize 22px
+// Desc - fontSize 15px
